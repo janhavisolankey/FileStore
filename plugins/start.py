@@ -19,7 +19,7 @@ from helper_func import *
 from database.database import *
 
 # File auto-delete time in seconds (Set your desired time in seconds here)
-FILE_AUTO_DELETE = TIME  # Example: 3600 seconds (1 hour)
+FILE_AUTO_DELETE = TIME  # Example: 43200 seconds (1 hour)
 TUT_VID = f"{TUT_VID}"
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed1 & subscribed2 & subscribed3 & subscribed4)
