@@ -18,7 +18,7 @@ from config import *
 from helper_func import *
 from database.database import *
 
-# File auto-delete time in seconds (Set your desired time in seconds here)
+# File auto-delete time in seconds 43200
 FILE_AUTO_DELETE = TIME  # Example: 43200 seconds (1 hour)
 TUT_VID = f"{TUT_VID}"
 
